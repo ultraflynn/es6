@@ -11,8 +11,6 @@ let dogs = [
   {name: "fluffy", breed: "poodle"}
 ]
 
-let labradors = dogs.filter(dog => {
-  return dog.breed === "labrador"
-})
+let labradors = dogs.filter(x => x.breed === "labrador")
 
 console.log(JSON.stringify(labradors, null, 2))
